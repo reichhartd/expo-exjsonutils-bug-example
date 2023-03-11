@@ -12,4 +12,4 @@
 
 1. Uninstall `expo-updates` and remove `expo-updates` from `plugins` from the `app.json`
 2. Follow the same steps as the [Bug example](#bug-example)
-3. See the message `Rejected: {"resultCode": "FAILED", "errorMessage": "Your Ident-ID is not correct. Please check and try again."}`
+3. Get the message `Rejected: {"resultCode": "FAILED", "errorMessage": "Your Ident-ID is not correct. Please check and try again."}` (Connection to the native iOS part is working)
