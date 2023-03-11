@@ -8,7 +8,7 @@
 4. Press `Start video ident`
 5. App is crashing
 
-# Working example
+## Working example
 
 1. Uninstall `expo-updates` and remove `expo-updates` from `plugins` from the `app.json`
 2. Follow the same steps as the [Bug example](#bug-example)
