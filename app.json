@@ -27,7 +27,16 @@
       "favicon": "./assets/favicon.png"
     },
     "plugins": [
-      "expo-updates"
+      "expo-updates",
+      [
+        "@tokenstreet/react-native-idnow-videoident",
+        {
+          "ios": {
+            "overrideBuildTypeToStaticFramework": false,
+            "applyUseFrameworksM1SimulatorWorkaround": true
+          }
+        }
+      ]
     ]
   }
 }
