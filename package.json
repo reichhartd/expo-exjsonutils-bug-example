@@ -6,7 +6,8 @@
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "web": "expo start --web"
+    "web": "expo start --web",
+    "prebuild": "export LC_ALL=en_US.UTF-8 && expo prebuild --clean"
   },
   "dependencies": {
     "@tokenstreet/react-native-idnow-videoident": "^0.20.0",
