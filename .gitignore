@@ -18,3 +18,9 @@ web-build/
 
 # IDE
 .idea
+
+# Native files
+android
+ios
+index.js
+metro.config.js
