@@ -43,6 +43,9 @@
         {
           "ios": {
             "applyUseFrameworksM1SimulatorWorkaround": true
+          },
+          "android": {
+            "excludeDuplicateClasses": true
           }
         }
       ],
